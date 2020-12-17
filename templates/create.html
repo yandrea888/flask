@@ -1,0 +1,12 @@
+{% extends "/layouts/main.html" %}
+
+{% block body %}
+<form method="POST" action="/save">
+  <div class="form-group">
+    <label for="value_input">Insert value: 0 o 1</label>
+    <input type="number" class="form-control" id="value_input" name="value_input">    
+  </div>
+    
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}    
